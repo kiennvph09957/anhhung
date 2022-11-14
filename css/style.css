@@ -1,0 +1,93 @@
+ 
+        #top{
+            color: red;
+            font-size: 30px;
+            text-align: center;
+            background-color: antiquewhite;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+        }
+        /* #sautop{ */
+            /* padding: 0px 0px 0px 100px ; */
+           
+            /* font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+       }
+        *{
+            box-sizing: border-box;
+        } */
+        /* #search { 
+            
+            justify-content: center; */
+            /* align-items: center; */
+         /* position: absolute; */
+          /* left: 300px;
+          top: 207px; */
+          /* height: 30px;
+       
+         
+            
+        }
+    
+        #search-box {
+            background: aqua;
+            border-radius: 20px;
+            width: 50%;
+        }
+        #search-box #search-text{
+            border: none;
+            outline: none;
+            background: none;
+            padding:   10px;
+            font-size: 18px;
+            background: aqua;
+            border-radius: 20px;
+            
+           
+            width: 60%;
+           
+          }
+          #search-text {
+            padding: 10px 0px 0px 10px ;
+          }
+        #search-box #search-btn{
+            background-color: rgb(5, 7, 7);
+            cursor: pointer; */
+            /* cursor là biểu tượng bàn tay khi chỉ vào tìm kiếm */
+            /* border: none;
+            padding: 5px 10px ;
+            border-radius: 50px;
+            font-size: 18px; */
+       
+            /* height: 30px; */
+          
+            
+           
+        /* } */
+        #dangnhap{
+          font-size: 20px;
+          background: rgb(237, 221, 150);
+          position: absolute;
+          margin-right: 30px;
+          
+          border: 3px solid #00b14f;
+         
+          padding: 5px 16px;
+          
+        }
+        #dangki{
+          font-size: 20px;
+          background: rgb(237, 221, 150);
+          position: absolute;
+          margin-left: 150px;
+         
+          border: 3px solid #00b14f;
+        
+          padding:   5px 16px;
+        }
+         a{text-decoration: none}
+         #ttin{
+          margin-top: 40px;
+         }
+         

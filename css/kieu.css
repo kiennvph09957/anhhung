@@ -1,0 +1,62 @@
+body{
+    background-image: url('../anh/bgr.jpg'); 
+    background-size: cover;
+    
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#from-dangnhap{
+   max-width: 400px;
+   background: rgba(15, 203, 224, 0.5); 
+   flex-grow: 1;
+   padding: 30px 30px 40px;
+   box-shadow: 0px 0px 17px 2px rgb(0, 0, 0 , 0.5);
+}
+.from-heading{
+    font-size: 30px;
+    color: rgb(203, 193, 55);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.from-group{
+    border-bottom: 1px solid#fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.from-group i{
+    color: #fff;
+    padding-right: 5px;
+    font-size: 15px;
+}
+.from-input{
+    background: transparent;
+    /* transparent: không màu */
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+    width: 93%;
+    font-size: 20px;
+}
+.from-input::placeholder{
+    /* from-input::placeholder tạo chữ đăng nhập or mk  */
+    color: #f5f5f5;
+    
+}
+.from-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.5s ease-in-out;
+    margin-top: 25px;
+}
+.from-submit:hover{
+    border: 1px solid rgb(241, 239, 81);
+}
